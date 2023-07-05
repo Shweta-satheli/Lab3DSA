@@ -1,0 +1,11 @@
+package com.greatlearning;
+
+import org.springframework.boot.SpringApplication;
+
+@SpringBootApplication
+public class EmployeeManagement {
+
+    public static void manin(String[] args) {
+         SpringApllication.run(EmployeeManagement.class, args);
+     }
+}
